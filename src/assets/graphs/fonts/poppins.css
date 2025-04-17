@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+*,
+body,
+html,
+body._a3wf {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.theme-dark, .theme-light, :root {
+  --font-inter: "Poppins","Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif!important;
+  --typography-heading4-font: 400 var(--font-inter)!important;
+  font-weight: 400!important;
+}

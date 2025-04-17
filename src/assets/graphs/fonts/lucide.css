@@ -1,0 +1,19 @@
+
+.theme-dark, .theme-light, :root {
+  --font-inter: "Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif!important;
+  --typography-heading4-font: 400 var(--font-inter)!important;
+  font-weight: 400!important;
+}
+
+body {
+  font-family: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif;
+}
+
+*,
+body,
+html,
+*::before,
+*::after {
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif!important;
+}
+

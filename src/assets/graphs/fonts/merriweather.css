@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;600;700&display=swap");
+
+*,
+body,
+html,
+*::before,
+*::after {
+  font-family: "Merriweather", sans-serif !important;
+}
+
+.theme-dark, .theme-light, :root {
+  --font-inter: "Merriweather","Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif!important;
+  --typography-heading4-font: 400 var(--font-inter)!important;
+  font-weight: 400!important;
+}

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+
+*,
+body,
+html,
+*::before,
+*::after {
+  font-family: "Caprasimo", sans-serif !important;
+}
+
+.theme-dark, .theme-light, :root {
+  --font-inter: "Caprasimo","Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif!important;
+  --typography-heading4-font: 400 var(--font-inter)!important;
+  font-weight: 400!important;
+}
