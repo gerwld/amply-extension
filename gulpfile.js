@@ -32,8 +32,8 @@ import chalk from 'chalk';
 
 let { src, dest, task, series } = gulp;
 const link = chalk.hex('#5e98d9');
-const EXTENSION_NAME = 'Amply'
-const EXTENSION_V = 'v.1.0.0'
+const EXTENSION_NAME = 'amply'
+const EXTENSION_V = 'v.1.1.0'
 const COPYRIGHT = `//   - This file is part of Amply Extension
 //  <https://github.com/gerwld/Amply-extension/blob/main/README.md>,
 //   - Copyright (C) 2023-present Amply Extension

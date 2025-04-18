@@ -42,10 +42,10 @@ browser_cr.runtime.onInstalled.addListener(function (details) {
   if (details.reason === 'install' || details.reason === 'update') {
     chrome.storage.local.get('welcomePageDisplayed', function (data) {
       if (!data.welcomePageDisplayed && details.reason === 'install') {
-        // chrome.tabs.create({ url: "https://weblxapplications.com/igp/welcome" });
+        chrome.tabs.create({ url: "https://weblxapplications.com/products/amply/welcome" });
         chrome.storage.local.set({ 'welcomePageDisplayed': true });
       } else if (details.reason === 'update') {
-        // chrome.tabs.create({ url: "https://weblxapplications.com/igp/update" });
+        chrome.tabs.create({ url: "https://weblxapplications.com/products/amply/update" });
       }
     });
   }
